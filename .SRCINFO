@@ -1,0 +1,21 @@
+pkgbase = onnxruntime-genai
+	pkgdesc = Microsoft's Generative AI extensions for onnxruntime
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://github.com/microsoft/onnxruntime-genai
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = python
+	makedepends = python-pip
+	makedepends = python-requests
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = onnxruntime-cpu
+	source = https://github.com/microsoft/onnxruntime-genai/archive/refs/tags/v0.12.0.tar.gz
+	md5sums = 376ff486fc8ad639ec040b1fc7524b66
+
+pkgname = onnxruntime-genai
